@@ -1,11 +1,11 @@
-import "reflect-metadata";
-import { ApolloServer } from "@apollo/server";
-import { startStandaloneServer } from "@apollo/server/standalone";
-import { buildSchema } from "type-graphql";
-import AdsResolver from "./resolvers/adsResolver";
-import TagsResolver from "./resolvers/tagsResolver";
-import CategoriesResolver from "./resolvers/categoriesResolver";
-import db from "./db";
+import 'reflect-metadata';
+import { ApolloServer } from '@apollo/server';
+import { startStandaloneServer } from '@apollo/server/standalone';
+import { buildSchema } from 'type-graphql';
+import AdsResolver from './resolvers/adsResolver';
+import TagsResolver from './resolvers/tagsResolver';
+import CategoriesResolver from './resolvers/categoriesResolver';
+import db from './db';
 
 const port = 4001;
 
